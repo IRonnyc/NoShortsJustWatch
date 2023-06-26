@@ -3,7 +3,7 @@
     "name": "NoShortsJustWatch",
     "version": "1.0",
   
-    "description": "Simply redirects youtube.com/shorts/ to youtube.com/watch/. We want videos, not shorts, this isn't a swimming pool. It's a simple one-liner, nothing else! :)",
+    "description": "Simply redirects youtube.com/shorts/... to youtube.com/watch?v=...",
   
     "icons": {
         "48": "icons/NoShorts48.png",
