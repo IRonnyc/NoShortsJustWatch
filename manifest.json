@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "NoShortsJustWatch",
+    "version": "1.0",
+  
+    "description": "Simply redirects youtube.com/shorts/ to youtube.com/watch/. We want videos, not shorts, this isn't a swimming pool. It's a simple one-liner, nothing else! :)",
+  
+    "icons": {
+        "48": "icons/NoShorts48.png",
+        "96": "icons/NoShorts96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/shorts/*"],
+        "js": ["noshorts.js"]
+      }
+    ]
+  }
+  
